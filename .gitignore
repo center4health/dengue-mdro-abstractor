@@ -1,0 +1,36 @@
+# Patient data and outputs (PHI - never commit)
+inputs/dengue_patient_features.json
+inputs/transfer_patient_features.json
+outputs/
+
+# Logs
+*.log
+file.log
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# macOS
+.DS_Store
