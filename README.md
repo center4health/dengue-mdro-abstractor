@@ -60,7 +60,6 @@ FHIR Patient Data (JSON)
 ## Requirements
 
 - Python 3.10+
-- GPU with sufficient VRAM (tested on A10G with LLaMA 3.1 8B)
 - LLaMA 3.1 model weights (locally downloaded)
 
 Install dependencies:
@@ -107,8 +106,6 @@ Output: `outputs/transfer/<csn>.json` and `outputs/transfer/<csn>.html`
 ---
 
 ## Input Data Format
-
-Expected FHIR-based JSON structure per patient:
 
 ```json
 {
