@@ -1,4 +1,4 @@
-# Patient data and outputs (PHI - never commit)
+# Patient data and outputs
 inputs/dengue_patient_features.json
 inputs/transfer_patient_features.json
 outputs/
